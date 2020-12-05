@@ -18,7 +18,7 @@ def binarysearch(arr, left, right, num):
             return binarysearch(arr, left, mid-1, num)
     
 
-def result_binary():
+def result_binary(arr, left, right, num):
     result = binarysearch(arr, 0, len(arr)-1, num)
     
     if result != -1:
