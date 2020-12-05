@@ -26,3 +26,13 @@ def result_binary(arr, left, right, num):
     else:
         print("The number is not pressent in the array.")
 
+def mergesort(arr):
+    pass
+
+def quicksort(arr):
+    pass
+
+def insertionsort(arr):
+    pass
+
+
